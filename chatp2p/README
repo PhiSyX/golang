@@ -1,0 +1,23 @@
+Chat App p2p
+============
+
+Usage 
+-----
+
+    $ go run main.go [ options ]
+    $ go build
+    $ ./name-executable [ options ]
+
+CLI Options
+-----------
+
+    --nick    : nickname of user ($Env:USERNAME or $Env:USER)
+    --channel : channel name to join at the connection ( défaut: #ibug )
+    --debug   : display more debug informations
+
+List of Chat commands
+---------------------
+
+    /help     : display user help
+    /clear    : clean the current terminal window buffer
+    /exit     : quit the chat
